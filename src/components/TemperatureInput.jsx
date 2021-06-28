@@ -22,24 +22,23 @@ import React from 'react';
     }
 }*/
 
-function TemperatureInput({scale, handler}) {
-    
-    let scaleInput = "";
-    if (scale === "c") {
-        scaleInput = "Celsius"
-    } else if (scale === "k") {
-        scaleInput = "Kalvin"
+class TemperatureInput extends React.Component {
+    constructor (props){
+        super(props);
     }
 
-    let val = 0;
-    return (<div>
-        <fieldset class="container">
-    <legend>Temperature input in {scaleInput}
-    <input class="form-control" type="number" onChange={handler} value={val} />
+    render () {
+        let {scale,data,handaler} = this.props;
+        
+return (<div>
+    <fieldset class="container">
+        <legend>Temperature input in {scale}
+        <input class="form-control" type="number" name={scale} onChange={handaler} value={data[scale]}/>
     </legend>
-        </fieldset>
-    </div>
-    )
+</fieldset>
+</div>
+)
+    }
 }
 
 export default TemperatureInput;
