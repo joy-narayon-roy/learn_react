@@ -5,13 +5,15 @@ import students from './components/students.json';
 import EventHandle from './components/EventHandle.jsx';
 import Form from './components/Form.jsx';
 import ConditionalRender from './components/Conditional_Render.jsx';
-import TemperatureConverter from './components/TemperatureConverter.jsx'
+import TemperatureConverter from './components/TemperatureConverter.jsx';
+import Composition from './components/Composition.jsx';
 
 function App() {
 
 return (
     <div>
         <body>
+        <Composition />
         <TemperatureConverter />
         <Form />
         <EventHandle />
