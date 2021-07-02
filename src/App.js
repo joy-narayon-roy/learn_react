@@ -7,12 +7,14 @@ import Form from './components/Form.jsx';
 import ConditionalRender from './components/Conditional_Render.jsx';
 import TemperatureConverter from './components/TemperatureConverter.jsx';
 import Composition from './components/Composition.jsx';
+import HigherOrderComponent from './components/HigherOrderComponent.jsx';
 
 function App() {
 
 return (
     <div>
         <body>
+        <HigherOrderComponent />
         <Composition />
         <TemperatureConverter />
         <Form />
