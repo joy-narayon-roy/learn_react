@@ -8,12 +8,14 @@ import ConditionalRender from './components/Conditional_Render.jsx';
 import TemperatureConverter from './components/TemperatureConverter.jsx';
 import Composition from './components/Composition.jsx';
 import HigherOrderComponent from './components/HigherOrderComponent.jsx';
+import RenderProps from './components/RenderProps.jsx';
 
 function App() {
 
 return (
     <div>
         <body>
+        <RenderProps />
         <HigherOrderComponent />
         <Composition />
         <TemperatureConverter />
