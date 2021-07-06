@@ -9,12 +9,14 @@ import TemperatureConverter from './components/TemperatureConverter.jsx';
 import Composition from './components/Composition.jsx';
 import HigherOrderComponent from './components/HigherOrderComponent.jsx';
 import RenderProps from './components/RenderProps.jsx';
+import ContextApi from './components/ContextApi.jsx';
 
 function App() {
 
 return (
     <div>
         <body>
+        <ContextApi />
         <RenderProps />
         <HigherOrderComponent />
         <Composition />
