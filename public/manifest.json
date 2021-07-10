@@ -1,0 +1,16 @@
+{
+  "short_name": "Bjoy FF",
+  "name": "Bjoy Freefire",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  
+  "icons": [
+    {
+      "src": "/icone.jpg",
+      "sizes": "56x56",
+      "type": "image/jpg"
+    }
+  ],
+  "background_color": "#ffffff"
+}
