@@ -38,6 +38,7 @@ class TemperatureConverter extends Component{
     
     inputHandeler = (e)=>{
         let {value} = e.target;
+        value = parseInt(value)
         if (e.target.name==='c') {
             this.setState({
                 f:converter.ctf(value),
