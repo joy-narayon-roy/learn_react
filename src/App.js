@@ -12,6 +12,8 @@ import RenderProps from './components/RenderProps.jsx';
 import ContextApi from './components/ContextApi.jsx';
 import UseState from './Hook/UseState.jsx';
 import UseEffect from './Hook/UseEffect.jsx';
+import UseCallback from './Hook/UseCallback.jsx';
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
 return (
     <div>
         <body>
+        <UseCallback />
         <UseEffect />
         <UseState />
         <ContextApi />
