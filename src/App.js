@@ -13,6 +13,9 @@ import ContextApi from './components/ContextApi.jsx';
 import UseState from './Hook/UseState.jsx';
 import UseEffect from './Hook/UseEffect.jsx';
 import UseCallback from './Hook/UseCallback.jsx';
+import UseRef from './Hook/UseRef.jsx';
+import UseReducer from './Hook/UseReducer.jsx';
+import CustomHook from './Hook/CustomHook.jsx';
 
 
 
@@ -21,6 +24,9 @@ function App() {
 return (
     <div>
         <body>
+        <CustomHook />
+        <UseReducer />
+        <UseRef />
         <UseCallback />
         <UseEffect />
         <UseState />
